@@ -21,36 +21,22 @@ header {
   right: 8px;
 }
 
-.main-container-image {
+.container-preview {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   margin-bottom: 100px;
 }
-.main-container-image img {
-  width: 20%;
-}
-.main-container-image .container-info {
+.container-preview .template-preview {
   position: relative;
-  width: 20%;
-  margin: 0px 2.5%;
+  flex: 1;
+  max-height: 500px;
+  padding: 15px;
 }
-.main-container-image .info-image {
-  position: absolute;
-  top: 0;
-  bottom: 60px;
-  left: 0;
-  right: 0;
-  background-color: pink;
-  opacity: 0;
-  color: grey;
-  transition: opacity 200ms ease-out;
-  padding-left: 15px;
-  padding-top: 15px;
-}
-.main-container-image:hover .info-image {
-  transition: opacity 200ms ease-out;
-  opacity: 0.85;
+.container-preview .template-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .container-thumbs {
