@@ -37,27 +37,25 @@ header {
             height: 100%;
             object-fit: cover;
         }
+        &:hover {
+            .template-preview {
+                transition: opacity 200ms ease-out;
+                opacity: 0.85;
+            }
+        }
     }
-    // .info-image {
-    //     position: absolute;
-    //     top: 0;
-    //     bottom: 60px;
-    //     left: 0;
-    //     right: 0;
-    //     background-color: pink;
-    //     opacity: 0;
-    //     color: grey;
-    //     transition: opacity 200ms ease-out;
-    //     padding-left: 15px;
-    //     padding-top: 15px;
+    .info-image {
+        position: absolute;
+        top: 0;
+        bottom: 0px;
+        left: 0;
+        right: 0;
+        background-color: pink;
+        opacity: 0;
+        color: grey;
+        transition: opacity 200ms ease-out;
 
-    // }
-    // &:hover {
-    //     .info-image {
-    //         transition: opacity 200ms ease-out;
-    //         opacity: 0.85;
-    //     }
-    // }
+    }
 
 }
 
