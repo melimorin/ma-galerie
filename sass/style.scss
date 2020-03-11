@@ -30,8 +30,7 @@ header {
         width: 20%;
         
     }
-
-    .title-link {
+    .info-image {
         position: absolute;
         top: 0;
         bottom: 60px;
@@ -43,9 +42,10 @@ header {
         transition: opacity 200ms ease-out;
         padding-left: 15px;
         padding-top: 15px;
+
     }
     &:hover {
-        .title-link {
+        .info-image {
             transition: opacity 200ms ease-out;
             opacity: 0.85;
         }
