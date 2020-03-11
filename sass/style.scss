@@ -37,26 +37,26 @@ header {
             height: 100%;
             object-fit: cover;
         }
+        .info-image {
+            position: absolute;
+            top: 0;
+            bottom: 0px;
+            left: 0;
+            right: 0;
+            background-color: rgb(161, 144, 147);
+            opacity: 0;
+            color: rgb(8, 1, 4);
+            transition: opacity 200ms ease-out;
+    
+        }
+        
         &:hover {
-            .template-preview {
+            .info-image {
                 transition: opacity 200ms ease-out;
-                opacity: 0.85;
+                opacity: 0.45;
             }
         }
     }
-    .info-image {
-        position: absolute;
-        top: 0;
-        bottom: 0px;
-        left: 0;
-        right: 0;
-        background-color: pink;
-        opacity: 0;
-        color: grey;
-        transition: opacity 200ms ease-out;
-
-    }
-
 }
 
 .container-thumbs {
