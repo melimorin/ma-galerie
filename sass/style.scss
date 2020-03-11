@@ -31,6 +31,26 @@ header {
         
     }
 
+    .title-link {
+        position: absolute;
+        top: 0;
+        bottom: 60px;
+        left: 0;
+        right: 0;
+        background-color: pink;
+        opacity: 0;
+        color: grey;
+        transition: opacity 200ms ease-out;
+        padding-left: 15px;
+        padding-top: 15px;
+    }
+    &:hover {
+        .title-link {
+            transition: opacity 200ms ease-out;
+            opacity: 0.85;
+        }
+    }
+
 }
 
 .container-thumbs {
