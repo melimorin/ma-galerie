@@ -1,3 +1,7 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
 header {
   width: 100%;
   height: 100px;
@@ -31,7 +35,7 @@ header {
   position: relative;
   flex: 1;
   max-height: 500px;
-  padding: 15px;
+  margin: 15px;
 }
 .container-preview .template-preview img {
   width: 100%;
@@ -44,14 +48,17 @@ header {
   bottom: 0px;
   left: 0;
   right: 0;
-  background-color: #a19093;
+  background-color: rgba(161, 144, 147, 0.45);
   opacity: 0;
   color: #080104;
   transition: opacity 200ms ease-out;
 }
+.container-preview .template-preview .info-image h2 {
+  margin-left: 10px;
+}
 .container-preview .template-preview:hover .info-image {
   transition: opacity 200ms ease-out;
-  opacity: 0.45;
+  opacity: 1;
 }
 
 .container-thumbs {
@@ -72,6 +79,11 @@ header {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.container-thumbs .active {
+  background-color: rgba(161, 144, 147, 0.45);
+  transition: opacity 200ms ease-out;
+  opacity: 1;
 }
 
 /*# sourceMappingURL=style.css.map */

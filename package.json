@@ -1,7 +1,6 @@
 {
   "name": "ma-galerie",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "sass": "sass ./sass:./css",
@@ -11,6 +10,16 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "sass": "^1.26.2"
-  }
+    "sass": "^1.26.3"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melimorin/ma-galerie.git"
+  },
+  "bugs": {
+    "url": "https://github.com/melimorin/ma-galerie/issues"
+  },
+  "homepage": "https://github.com/melimorin/ma-galerie#readme",
+  "description": ""
 }
