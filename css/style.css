@@ -80,9 +80,18 @@ header {
   height: 100%;
   object-fit: cover;
 }
-.container-thumbs .active {
+.container-thumbs .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0px;
+  left: 0;
+  right: 0;
   background-color: rgba(161, 144, 147, 0.45);
+  opacity: 0;
+  color: #080104;
   transition: opacity 200ms ease-out;
+}
+.container-thumbs .overlay.active {
   opacity: 1;
 }
 

@@ -88,11 +88,20 @@ header {
             }
         }
     }
-    .active {
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0px;
+        left: 0;
+        right: 0;
         background-color: rgb(161, 144, 147, 0.45);
+        opacity: 0;
+        color: rgb(8, 1, 4);
         transition: opacity 200ms ease-out;
-        opacity: 1;
+
+        &.active {
+            opacity: 1;
+        }
     }
 
-    
 }
