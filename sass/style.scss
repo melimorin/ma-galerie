@@ -73,6 +73,8 @@ header {
 
     .container-scroll {
         width: 50000px;
+        position: relative;
+        left: 0;
 
         .template {
             position: relative;

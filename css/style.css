@@ -67,6 +67,8 @@ header {
 }
 .container-thumbs .container-scroll {
   width: 50000px;
+  position: relative;
+  left: 0;
 }
 .container-thumbs .container-scroll .template {
   position: relative;
